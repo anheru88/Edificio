@@ -1,0 +1,83 @@
+.contenedor
+	padding  3em 0
+	width 480px
+.wrap-izq, .wrap-der
+	perspective 600
+	-webkit-perspective 600
+	display  inline-block
+
+.derecha
+	padding  2em 1em 2em 0.5em
+	width 250px
+	height  auto
+	background  #ededed
+	-webkit-transform rotateY(40deg)
+	margin-left  -1.6em
+
+.izquierda
+	padding  2em 1em 2em 0.5em
+	width 250px
+	height  auto
+	background  #ededed
+	-webkit-transform rotateY(140deg)
+
+.edificio ul
+	margin-top 0.2em
+	width 100%			
+
+.edificio ul li
+	width  23%
+	height 40px
+	list-style  none
+	display  inline-block
+	background  #25bffb
+.edificio ul li:hover
+	background  #a7edfb		
+.prueba
+	background pink
+.filtro
+	margin-top 6em
+	form 
+		text-align center
+		padding 1em
+		input
+		select
+			border none
+			box-sizing  content-box !important
+			background #f6f6f6
+			text-align center
+			padding .5em 0 .5em .3em !important
+.anuncio
+	background #0f70b7
+	bottom 200px
+	color white
+	height 60px
+	left -80px
+	padding 1.1em 0
+	position absolute
+	text-align center
+	width 70px
+	span
+		font-size 1.6em
+
+.pop-up
+	display none
+	width 300px
+	height auto 
+	position absolute
+	top 90px
+	left -270px
+	h2
+		color #35ae67
+	h2, h3
+		text-align center
+	p
+		text-align justify
+	&:before
+		border-bottom 20px solid #ededed
+		border-left 20px solid transparent
+		border-right 20px solid transparent
+		content ' '
+		position absolute
+		right -20px
+		top 100px

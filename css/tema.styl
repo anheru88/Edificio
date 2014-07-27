@@ -1,0 +1,142 @@
+@import 'nib/vendor'
+@import 'colores.styl'
+@import 'iconos.styl'
+vendor-prefixes = moz o webkit ms
+
+*
+	font-family 'Open Sans'
+	font-size 16px
+	margin 0
+	padding 0
+	-webkit-font-smoothing: antialiased;
+	box-sizing border-box
+a
+	text-decoration none
+html
+body
+	position relative
+	height 100%
+
+form
+	hr
+		height 1px
+		background #dedede
+		width 100%
+ul li
+	list-style none
+.nav
+	background nav
+	padding 0 3em
+	position relative
+	.logo
+	.menu
+	.wrap-social
+		display inline-block
+	.menu
+	.social
+		li
+			display inline-block
+			a
+				color white
+				padding 1em
+				font-weight 800
+				text-decoration none
+				&:hover
+					background hoverNav
+		.btn-white
+			background white
+			border-radius 5px
+			color nav
+			padding 0.5em 1em
+	.social
+		position absolute
+		right 2em
+		top 1.5em
+		a
+			&:hover
+				color white
+.contacto, input
+	text-align center
+.contacto 
+	margin-top 1em
+	.form-group
+		margin-bottom 0.3em
+	input,textarea 
+		border 2px solid #eee
+		border-left 0
+	.input-group-addon
+		border 2px solid #eee
+		border-right 0
+		background white
+		color #ccc
+	.btn
+		border-radius 0
+		border-radius 0 0 .2em .2em
+
+.footer
+	background #e84e1a
+	padding 1em 0
+	width 100%
+	overflow hidden
+	position absolute
+	bottom -200px
+.descripcion
+	padding-top 2em
+	padding-bottom  4em
+	.titulo
+		h1
+			color #29b368
+	.telefono
+	.correo
+		color #999
+		font-size 1em
+		margin-top 1em
+.verde-claro
+	background #93c120
+	border 0
+	padding .5em 2em
+.title-anuncio
+	background #297ebe
+	color white
+	div
+		padding 1.2em 2em 
+		background #0f70b7
+		display inline-block
+	span
+		font-size 2em
+.wrap-anuncio
+	padding 3em
+	.noticias, .oficinaDisponible
+		background #f6f6f6
+		border-left 1em solid white
+	.noticias
+		padding 0 2em
+		.title
+			padding .5em 0
+			font-weight 900
+			text-align center
+			border-bottom 1px solid #ccc
+			span
+				font-size 1.8em
+				color #777
+	.oficinaDisponible
+		padding 1em 2em
+		.title-oficinas
+			background #F85F2B
+			color white
+			border-radius 5px
+			padding .2em 0
+		.articulo
+			padding .5em 0
+			border-bottom 1px solid #FAD3C5
+			.img
+				background #F85F2B
+				width 100px
+				height 80px
+				border-radius 5px
+				text-align center
+				color white
+			a
+				vertical-align center
+				margin-top 20px
+@import 'edificio.styl'
